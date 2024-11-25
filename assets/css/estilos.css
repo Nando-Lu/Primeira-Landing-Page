@@ -79,6 +79,7 @@ body {
 
 .conteudos {
     margin-top: 90px;
+    margin-bottom: 75px;
     width: 792px;
     height: 325px;
     margin-left: auto;
@@ -87,11 +88,13 @@ body {
 }
 
 .conteudos h2 {
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700;
     font-size: 32px;
     color: rgba(51, 168, 219, 1);
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     word-spacing: 2.5px;
 }
 
@@ -119,4 +122,87 @@ body {
 
 .conteudo p span {
     color: rgba(51, 168, 219, 1);
+}
+
+/* Estilos da section Imagem e texto decorativos*/
+
+.decorativo {
+    height: 363px;
+    background-image: url(../images/woman-code.png);
+    background-attachment: fixed;
+    background-size: cover;
+    border-top: 1px solid rgba(51, 168, 219, 1);
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+
+.decorativo p {
+    color: rgba(255, 255, 255, 1);
+    width: 244px;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 3px 2px 0px rgba(51, 168, 219, 1);
+    margin: 111.597px auto 111.597px 250px;
+}
+
+
+/* Estilos da section Desafios*/
+
+.seção-desafios {
+    text-align: center;
+}
+
+.seção-desafios h2{
+    margin-top: 70px;
+    width: 746px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(51, 168, 219, 1);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    word-spacing: 2.5px;
+}
+
+.seção-desafios p {
+    margin: 35px auto 80px auto;
+    width: 792px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Estilos footer*/
+
+footer {
+    height: 170px;
+    text-align: center;
+    border-top: 1px solid rgba(51, 168, 219, 1);
+    background-image: linear-gradient(rgba(51, 168, 219, 0) 0%, rgba(51, 169, 219, 0.063) 50%, rgba(51, 169, 219, 0.157) 100%);
+}
+
+footer img {
+    margin-top: 54px;
+}
+
+footer p {
+    margin-top: 7px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer p a {
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(51, 168, 219, 1);;
+}
+
+footer p a:visited {
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(51, 168, 219, 1);;
+}
+
+footer p a:hover {
+    text-decoration: underline;
 }
